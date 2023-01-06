@@ -22,22 +22,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 130px;
 
 }
-.header-container{
+
+.header-container {
     width: 1140px;
 }
 
 
 /* for heading content align right side */
-.header-right{
-   max-width: 525px;
+.header-right {
+    max-width: 525px;
     text-align: end;
     margin-left: auto;
 
 }
 
-.heading-text{
+.heading-text {
     color: white;
     font-weight: 800;
     font-size: 65px;
@@ -45,25 +47,108 @@
     margin-bottom: 24px;
 }
 
-
-.heading-description{
-color:white;
-font-weight: 400;
-font-size: 16px;
-margin-bottom: 32px;
-line-height: 26px;
-padding-left: 58px;
+.heading-description {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 32px;
+    line-height: 26px;
+    padding-left: 58px;
 
 }
 
-.btn-primary{
-    padding:20px 25px;
+.btn-primary {
+    padding: 20px 25px;
     font-weight: 700;
     font-size: 20px;
-    border:none;
+    border: none;
     background-color: white;
-    color: #005FAC ;
+    color: #005FAC;
     border-radius: 8px;
     cursor: pointer;
-    
+
 }
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* failures-reasons style */
+.failures-section {
+    display: flex;
+    align-items: center;
+    gap: 85px;
+    margin-bottom: 130px;
+}
+
+.person-img {
+    width: 570px;
+    height: auto;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: black;
+    text-align: left;
+    padding-right: 118px;
+    margin-bottom: 24px;
+}
+
+.section-description {
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.failures-reasons ul li {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 8px;
+    position: relative;
+    list-style-image: url("../images/list-image.png");
+    list-style-position: inside;
+}
+
+/* .reasons ul li::before {
+    content: ' ';
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-image: url('../images/list-image.webp');
+  } */
+
+
+
+
+/* plan section style */
+.plan-section {
+    display: flex;
+    gap: 85px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 130px;
+    width: 100%;
+}
+.plan {
+    width: 25%;
+}
+.plan-img {
+    margin-bottom: 20px;
+}
+.plan-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+}
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
