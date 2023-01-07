@@ -156,6 +156,11 @@ main {
     color: #737272;
 }
 
+
+
+
+
+
 /* success formula section style */
 .success-section {
     padding: 10px;
@@ -169,14 +174,12 @@ main {
     display: flex;
     gap: 10px;
 }
-
-.success-title{
+.success-title {
     padding: 20px 0px;
     font-weight: 700;
     font-size: 30px;
-    color: white;
+    color: #005FAC;
 }
-
 .success-item {
     width: 33%;
     border-radius: 8px;
@@ -185,33 +188,28 @@ main {
     cursor: pointer;
     transition-duration: .6s;
 }
-
-.success-item img{
+.success-item img {
     margin-bottom: 10px;
     width: 90px;
     height: 90px;
 }
-
 /* set color by class */
-.color1{
+.color1 {
     background: #4b8abe;
 }
-
-.color2{
+.color2 {
     /* background: #61ae45; */
     background-image: linear-gradient(to right, #4b8abe, #9043b1);
 }
-
-.color3{
+.color3 {
     background: #9043b1;
 }
-
-.item-title{
+.item-title {
     font-weight: 700;
     font-size: 20px;
     margin-bottom: 10px;
 }
-.success-item p{
+.success-item p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.4;
@@ -220,7 +218,6 @@ main {
     list-style: none;
     text-align: left;
 }
-
 .success-item ul li {
     margin-bottom: 10px;
     font-weight: 400;
@@ -238,6 +235,7 @@ main {
     margin-bottom: 130px;
     background-image: url('../images/watch.png');
 }
+
 .final-gradiyent {
     width: 100%;
     height: 100%;
@@ -247,11 +245,13 @@ main {
     align-items: center;
     border-radius: 8px;
 }
+
 .msg-container {
     width: 460px;
     height: auto;
     margin-left: 70px;
 }
+
 .final-text {
     color: white;
     font-weight: 700;
@@ -261,7 +261,7 @@ main {
 
 
 /* footer section style */
-.footer{
+.footer {
     width: 100%;
     height: auto;
     background-color: #151414;
@@ -270,7 +270,8 @@ main {
     align-items: center;
     padding: 130px 0px;
 }
-.footer-container{
+
+.footer-container {
     max-width: 1140px;
     height: auto;
     display: flex;
@@ -279,34 +280,34 @@ main {
 }
 
 
-.future-text{
+.future-text {
     font-weight: 700;
-font-size: 45px;
-margin-bottom: 16px;
+    font-size: 45px;
+    margin-bottom: 16px;
 }
 
-.future-description{
-line-height: 26px;
-width: 485px;
-font-weight: 400;
-font-size: 16px;
-margin-bottom: 24px;
+.future-description {
+    line-height: 26px;
+    width: 485px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
 
 }
 
-.future .email{
+.future .email {
     margin-bottom: 16px;
     font-weight: 400;
     font-size: 16px;
 }
 
-.future .number{
+.future .number {
     margin-bottom: 32px;
     font-weight: 400;
     font-size: 16px;
 }
 
-.social ul{
+.social ul {
     display: flex;
     gap: 15px;
     list-style-type: none;
@@ -315,38 +316,38 @@ margin-bottom: 24px;
 
 
 /* subscribe email input and button style */
-.subscribe-text{
+.subscribe-text {
     font-weight: 600;
-font-size: 25px;
-margin-bottom: 30px;
+    font-size: 25px;
+    margin-bottom: 30px;
 }
 
 
-.subscribe input[type='email']{
+.subscribe input[type='email'] {
     padding: 22px;
     font-weight: 400;
-font-size: 18px;
-border: 1px solid white;
-outline:none;
-border-radius: 8px;
-background-color: transparent;
-color: white;
-margin-bottom: 16px;
-width: 325px;
+    font-size: 18px;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 16px;
+    width: 325px;
 }
 
-::placeholder{
+::placeholder {
     color: white;
 }
 
-.subscribe input[type='submit']{
+.subscribe input[type='submit'] {
     color: white;
     font-weight: 600;
-font-size: 20px;
-padding: 20px 36px;
-background-color: #005FAC;
-border: none;
-outline: none;
-border-radius: 8px;
-cursor: pointer;
+    font-size: 20px;
+    padding: 20px 36px;
+    background-color: #005FAC;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
 }
