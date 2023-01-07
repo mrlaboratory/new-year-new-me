@@ -31,6 +31,8 @@
 }
 
 
+
+
 /* for heading content align right side */
 .header-right {
     max-width: 525px;
@@ -74,6 +76,9 @@ main {
     margin: 0 auto;
 }
 
+
+
+
 /* failures-reasons style */
 .failures-section {
     display: flex;
@@ -114,6 +119,9 @@ main {
     list-style-position: inside;
 }
 
+
+
+
 /* .reasons ul li::before {
     content: ' ';
     display: inline-block;
@@ -126,9 +134,10 @@ main {
 
 
 /* plan section style */
-.plan-section{
+.plan-section {
     margin-bottom: 130px;
 }
+
 .plan-container {
     display: flex;
     gap: 45pxpx;
@@ -138,12 +147,13 @@ main {
 
 }
 
-.plan-section .section-title{
+.plan-section .section-title {
     text-align: center;
     font-weight: 700;
-font-size: 40px;
-margin-bottom: 50px;
-color: black;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: black;
+    width: 100%;
 }
 
 .plan {
@@ -152,8 +162,9 @@ color: black;
 
 .plan-img {
     margin-bottom: 20px;
+    width: 60px;
+    height: auto;
 }
-
 .plan-title {
     margin-bottom: 10px;
     font-weight: 700;
@@ -180,17 +191,21 @@ color: black;
     text-align: center;
     height: 370px;
 }
+
 .success-container {
     justify-content: space-around;
     display: flex;
     gap: 10px;
 }
+
 .success-title {
     padding: 20px 0px;
     font-weight: 700;
     font-size: 30px;
     color: #005FAC;
+    margin-bottom: 15px;
 }
+
 .success-item {
     width: 33%;
     border-radius: 8px;
@@ -199,36 +214,49 @@ color: black;
     cursor: pointer;
     transition-duration: .6s;
 }
+
+.success-item:hover {
+    box-shadow: 1px 3px 3px rgba(96, 91, 91, 0.541);
+}
+
+
 .success-item img {
     margin-bottom: 10px;
     width: 90px;
     height: 90px;
 }
+
 /* set color by class */
 .color1 {
     background: #4b8abe;
 }
+
 .color2 {
     /* background: #61ae45; */
     background-image: linear-gradient(to right, #4b8abe, #9043b1);
 }
+
 .color3 {
     background: #9043b1;
 }
+
 .item-title {
     font-weight: 700;
     font-size: 20px;
     margin-bottom: 10px;
 }
+
 .success-item p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.4;
 }
+
 .success-item ul {
     list-style: none;
     text-align: left;
 }
+
 .success-item ul li {
     margin-bottom: 10px;
     font-weight: 400;
